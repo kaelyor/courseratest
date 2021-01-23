@@ -2,36 +2,58 @@ body {
     font-size: 16px;
     color: black;
     font-family: Titillium Web;
+    background: linear-gradient(to right, black, white);
 }
 
 /* HEADER */
 
 #header-nav {
-    background-color: aquamarine;
+    background-color: black;
     border: 0;
     border-radius: 0;
     min-height: 70px;
 }
 
 .navbar-header h1 {
-    color: black;
+    color: white;
     text-transform: uppercase;
     margin-top: 0;
 }
 
+#collapsable-nav {
+    border: 0;
+}
+
 #nav-list {
-    background-color: cadetblue;
+    margin-top: 20px;
+    background-color: pink;
+}
+
+#nav-list a {
     color: black;
+}
+
+#nav-list a:hover {
+    background-color: gainsboro;
 }
 
 /* END HEADER */
 
 /* BODY */
 
-#main-content {
-    border: black;
+#our-menu{
+    font-weight: bold;
+}
+
+.menu-tile {
     border-radius: 5px;
-    background-color: crimson;
-    min-height: 1000px;
-    margin-bottom: 20px;
+    background: pink;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 2% 5% 5%;
+}
+
+#main-content h3 {
+    font-size: 1.2em;
+    font-weight: bold;
 }
